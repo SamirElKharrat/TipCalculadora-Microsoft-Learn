@@ -11,13 +11,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text" />
+        android:inputType="text"
+        android:id="@+id/txtCuenta"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CALCULAR"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText" 
+        android:id="@+id/btnCalcular"/>
     <LinearLayout
         android:orientation="horizontal"
         android:minWidth="25px"
@@ -29,12 +31,13 @@
             android:text="Propina"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/textView1"
+            android:layout_marginRight="20dp"
             tools:ignore="HardcodedText" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/textView2" />
+            android:layout_marginRight="20dp"
+            android:id="@+id/txtPropina" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -47,12 +50,13 @@
             android:text="Total"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/textView3"
+            android:layout_marginRight="20dp"
             tools:ignore="HardcodedText" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/textView4" />
+            android:layout_marginRight="20dp"
+            android:id="@+id/txtTotal" />
     </LinearLayout>
 
 </LinearLayout>
